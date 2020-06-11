@@ -13,6 +13,7 @@
 		A3811AD624911924001FB9F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3811AD424911924001FB9F1 /* Main.storyboard */; };
 		A3811AD824911926001FB9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3811AD724911926001FB9F1 /* Assets.xcassets */; };
 		A3811ADB24911926001FB9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3811AD924911926001FB9F1 /* LaunchScreen.storyboard */; };
+		A3811AE32491201E001FB9F1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3811AE22491201E001FB9F1 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A3811AD724911926001FB9F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3811ADA24911926001FB9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3811ADC24911926001FB9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3811AE22491201E001FB9F1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A3811AD224911924001FB9F1 /* ViewController.swift */,
 				A3811AD424911924001FB9F1 /* Main.storyboard */,
 				A3811AD724911926001FB9F1 /* Assets.xcassets */,
+				A3811AE22491201E001FB9F1 /* GameScene.swift */,
 				A3811AD924911926001FB9F1 /* LaunchScreen.storyboard */,
 				A3811ADC24911926001FB9F1 /* Info.plist */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				A3811AD324911924001FB9F1 /* ViewController.swift in Sources */,
 				A3811ACF24911924001FB9F1 /* AppDelegate.swift in Sources */,
+				A3811AE32491201E001FB9F1 /* GameScene.swift in Sources */,
 				A3811AD124911924001FB9F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hiroki.sato.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hiroki.sato.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
