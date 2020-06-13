@@ -420,7 +420,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
         score = 0
         scoreLabelNode.text = "Score:\(score)"
         itemScore = 0
-        itemScoreLabelNode.text = "Score:\(itemScore)"
+        itemScoreLabelNode.text = "itemScore:\(itemScore)"
 
         bird.position = CGPoint(x: self.frame.size.width * 0.2, y:self.frame.size.height * 0.7)
         bird.physicsBody?.velocity = CGVector.zero
